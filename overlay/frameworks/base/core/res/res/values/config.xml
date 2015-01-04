@@ -56,22 +56,6 @@
         <item>255</item>  <!-- 20001+ -->
     </integer-array>
 
-    <!-- Array of output values for button backlight corresponding to the LUX values
-         in the config_autoBrightnessLevels array.  This array should have size one greater
-         than the size of the config_autoBrightnessLevels array.
-         This must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessButtonBacklightValues">
-        <item>255</item>  <!-- 0-9 -->
-        <item>255</item>  <!-- 10-30 -->
-        <item>255</item>  <!-- 31-100 -->
-        <item>255</item>  <!-- 101-325 -->
-        <item>255</item>  <!-- 326-1250 -->
-        <item>255</item>  <!-- 1251-3500 -->
-        <item>255</item>  <!-- 3501-10000 -->
-        <item>255</item>  <!-- 10001-20000 -->
-        <item>255</item>  <!-- 20000+ -->
-    </integer-array>
-
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
@@ -149,6 +133,5 @@
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <integer name="config_screenBrightnessDoze">1</integer>
     <bool name="config_dozeAfterScreenOff">true</bool>
-    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 </resources>
