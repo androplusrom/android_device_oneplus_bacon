@@ -23,8 +23,6 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon use
 
 #ASSIFY
 ASSIFY := true
-GRAPHITE_OPTS=true
-STRICT_ALIASING := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
