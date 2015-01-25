@@ -27,6 +27,9 @@ TARGET_GCC_VERSION_AND := 4.8-sm
 #ASSIFY
 ASSIFY := true
 
+#Changelog
+AP_CHANGELOG=true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
 
